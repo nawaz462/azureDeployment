@@ -37,6 +37,6 @@ jobs:
         
         # Verify build in target directory
       - name: list of files in target directory 
-        run: cd target | ls -a
+        run: ls -a target/
         
         
