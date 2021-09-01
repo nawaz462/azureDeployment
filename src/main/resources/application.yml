@@ -1,0 +1,7 @@
+
+spring:
+  application:
+    name: azure-springboot-deployment
+
+server:
+  port: 8081
