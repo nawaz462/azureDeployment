@@ -29,7 +29,7 @@ jobs:
 
       # Run maven build
       - name: Run a maven build command
-        run: mvn spring-boot:build-image
+        run: mvn clean install
         
         # Verify the build 
       - name: list of files in root directory 
