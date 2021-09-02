@@ -43,7 +43,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: hub.docker.com/nawaz462/azuredeployment
+          images: docker.io/nawaz462/azuredeployment
           tag-sha: true
           tag-edge: false
           tag-latest: true
