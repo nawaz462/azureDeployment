@@ -66,9 +66,5 @@ jobs:
       - name: list of images
         run: docker images
         
-      - name: Push image
-        uses: docker/build-push-action@v2
-        with:
-          push: true
-          tags: ${{ steps.docker_meta.outputs.tags }}
-          file: ./Dockerfile
+      - name: Push image to dockerhub
+        run: docker push nawaz462/azuredeployment:0.0.2-SNAPSHOT
